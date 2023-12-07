@@ -1,0 +1,71 @@
+.Navbar {
+  /* background-color:red; */
+  display:flex;
+  padding: 0 10% 0 10%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  z-index: 2;
+  flex-wrap: wrap;
+
+}
+
+.nav_list{
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  
+}
+
+nav ul li a{
+  position: relative;
+  
+}
+
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  position:absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: blue;
+  transition: width 0.4s;
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+a:hover{
+  color: orange;
+}
+
+.RegisterNow{
+  background-color: blue;
+  color:#fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+}
+
+.RegisterNow:hover{
+  scale: 1.10;
+  color: #e85c10;
+}
+.RegisterNow:active{
+  scale: 0.95;
+
+}
