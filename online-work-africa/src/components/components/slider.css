@@ -41,17 +41,17 @@
 .slide-text {
   width: 100%;
   height: 100%;
-  color: white;
+  color: rgb(172, 168, 236);
   font-size: 50px;
   position: absolute;
   text-align: center;
-  top: 40%;
+  top: 60%;
   z-index: 10;
 }
 
 .slide-text {
-  top: 65%;
-  font-size: 2rem;
+  top: 70%;
+  font-size: 1.5rem;
 }
 
 .prev,
