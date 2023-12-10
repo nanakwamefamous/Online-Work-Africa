@@ -1,0 +1,52 @@
+.EmploymentRate{
+  font-weight:normal;
+  width: 424px;
+  height: 64px;
+  top: 80px;
+  left: 174px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  text-transform: uppercase;
+
+}
+
+.UnemploymentRate{
+  font-weight:normal;
+  width: 424px;
+  height: 64px;
+  top: 80px;
+  left: 825px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.Content{
+  width: auto;
+  height: 35px;
+  left: 250px;
+  top: 100px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-weight: '';
+  text-transform: uppercase;line-height: 35px;
+}
+
+.Content2{
+  width: auto;
+  height: 35px;
+  left: 910px;
+  top: 100px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-weight: '';
+  text-transform: uppercase;line-height: 35px;
+}
