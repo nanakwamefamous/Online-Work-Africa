@@ -34,7 +34,7 @@
 
 }
 .EmploymentRate{
-  font-size: larger;
+  font-size: xx-large;
   text-transform: uppercase;
 }
 
@@ -46,14 +46,16 @@
 }
 
 .UnemploymentRate{
-  font-size:x-large;
+  font-size:xx-large;
   text-transform: uppercase;
 }
 
 .Content{
-  justify-content: center;
+  margin-left: 25%;
+  font-size: x-large;
 }
 
 .Content2{
-
+  margin-left: 27%;
+  font-size: x-large;
 }
