@@ -1,13 +1,18 @@
 .Navbar {
   /* background-color:red; */
   display:flex;
-  padding: 0.5% 10% 0.5% 10%;
+  padding: 1.5% 5% 1.5% 5%;
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
   z-index: 2;
   flex-wrap: wrap;
 
+}
+
+img{
+  height:170px;
+  width: 170px;
 }
 
 .nav_list{
@@ -30,7 +35,7 @@ nav ul li a::after{
   bottom: -5px;
   left: 50%;
   transform: translateX(-50%);
-  background: blue;
+  background: #27418b;
   transition: width 0.4s;
 }
 
@@ -45,11 +50,11 @@ a{
 }
 
 a:hover{
-  color: orange;
+  color: #14b14b;
 }
 
 .RegisterNow{
-  background-color: blue;
+  background-color: #27418b;
   color:#fff;
   padding: 0.5rem 1rem;
   border: none;
@@ -63,7 +68,7 @@ a:hover{
 
 .RegisterNow:hover{
   scale: 1.10;
-  color: #e85c10;
+  color: #14b14b;
 }
 .RegisterNow:active{
   scale: 0.95;

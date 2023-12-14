@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='Last-footer'>
-                <p>Design By Prince</p>
+                <p></p>
             </div>
         </>
     )

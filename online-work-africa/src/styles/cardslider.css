@@ -7,5 +7,11 @@
 }
 
 .slick-dots li.slick-active button:before {
-  color:orange !important;
+  color:#14b14b !important;
 }
+
+.textH2{
+  font-size: 30px;
+  text-align: center;
+}
+

@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, Link} from "react-router-dom";
 import "../styles/Navbar.css";
+import logo from "../images/logo.png"
 
 
 export default function navbar() { 
@@ -8,7 +9,7 @@ return (
   <>
     
     <nav className="Navbar">
-      <h2 className="logo">logo</h2>
+      <img src={logo} alt=""/>
         <ul className="nav_list">
           <li>
             <Link to="/" className="link-style">Home</Link>

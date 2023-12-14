@@ -18,6 +18,7 @@ function SponsorsSlider() {
   return (
     <div className='w-3/4 m-auto'>
       <div className="mt-5 ">
+      <h2 className="SStextH2">SPONSORS</h2>
       <Slider {...settings}>
         {data.map((d) => (
             <img src={d.img} alt=""/>
