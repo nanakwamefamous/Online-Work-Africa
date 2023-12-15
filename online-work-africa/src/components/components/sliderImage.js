@@ -1,4 +1,4 @@
-import First from "../../images/Slider 1.png";
+import First from "../../images/new_slider 1.jpg";
 import Second from "../../images/Slider 2.png";
 import Third from "../../images/Slider 3.png";
 import Fourth from "../../images/Slider 4.png";

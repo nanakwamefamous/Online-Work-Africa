@@ -1,18 +1,26 @@
 import React from 'react'
 import "../styles/OurGoals.css";
-import goalImage from "../images/goal.png"
+import goalImage from "../images/goal.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function OurGoals() {
+  useEffect(() => {
+    Aos.init({
+      duration: 3000,
+    });
+  }, []);
   return (
 
-    <div className="ogcontent-container">
+    <div data-aos="fade-left" className="ogcontent-container">
       <div className="ogimage-container">
         <img
           src={goalImage}
           alt="Sample"
         />
       </div>
-      <div className="ogtext-container">
+      <div data-aos="zoom-in" className="ogtext-container">
         <h2>Our Goals</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel

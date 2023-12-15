@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/Footer.css";
+import logo from "../images/logo.png"
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-lg-5 col-12 ft-1">
-                            <h3>LOGO</h3>
+                            <img src={logo} alt=""/>
                             <p>dhjfdifkjd fiuljdsgiuhfgusiodho ssgiudhlfvsiughlkxgiu dyukhbvshjvbjk yfbv dsyiiltwiteugwou isuehfsgiduzgsh ilkviugsjkbv ivguhlzgusv gusoklv gbj </p>
                             <div className="footer-icons">
                                 <i class="fa-brands fa-facebook"></i>

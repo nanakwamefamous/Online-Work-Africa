@@ -1,10 +1,12 @@
 import React from "react";
 
+
 function SliderContent({ activeIndex, sliderImage }) {
+
   return (
     <section>
       {sliderImage.map((slide, index) => (
-        <div
+        <div 
           key={index}
           className={index === activeIndex ? "slides active" : "inactive"}
         >
@@ -15,6 +17,6 @@ function SliderContent({ activeIndex, sliderImage }) {
       ))}
     </section>
   );
-}
+};
 
 export default SliderContent;

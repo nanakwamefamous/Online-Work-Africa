@@ -1,12 +1,20 @@
 import React from 'react'
 import "../styles/AboutUsBox.css";
-import aboutImg from "../images/imagesAboutUs.png"
+import aboutImg from "../images/imagesAboutUs.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function AboutUsBox() {
+  useEffect(() => {
+    Aos.init({
+      duration: 3000,
+    });
+  }, []);
   return (
 
-    <div className="aucontent-container">
-      <div className="autext-container">
+    <div data-aos="fade-up" className="aucontent-container">
+      <div data-aos="zoom-in" className="autext-container">
         <h2>ABOUT US</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel

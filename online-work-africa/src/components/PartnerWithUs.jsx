@@ -23,7 +23,7 @@ export default function PartnerWithUs() {
         />
       </div>
 
-      <a className="pwubottom-left-btn" href='/About us'>READ MORE</a>
+      <a className="pwubottom-left-btn" href='/About us'>SIGN UP</a>
     </div>
 
   // <div>

@@ -1,14 +1,21 @@
 import React from "react";
 import { Outlet, Link} from "react-router-dom";
 import "../styles/Navbar.css";
-import logo from "../images/logo.png"
+import logo from "../images/logo.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 
-export default function navbar() { 
+export default function  Navbar() { 
+  useEffect(() => {
+    Aos.init({
+      duration: 3000,
+    });
+  }, []);
 return (
   <>
-    
-    <nav className="Navbar">
+    <nav data-aos="fade-right"className="Navbar">
       <img src={logo} alt=""/>
         <ul className="nav_list">
           <li>
