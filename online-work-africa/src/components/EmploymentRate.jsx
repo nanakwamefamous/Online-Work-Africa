@@ -2,12 +2,21 @@ import React from 'react';
 import "../styles/EmploymentRate.css";
 import Countup1 from './Countup1';
 import Countup2 from './Countup2';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 
 export default function EmploymentRate() {
+  useEffect(() => {
+    Aos.init({
+      duration: 3000,
+    });
+  }, []);
   return (
     <div>
-      <div className="EmploymentBox" >
+      <div data-aos="zoom-out" className="EmploymentBox" >
           <section className='contentandemployment'>
               <h3 className="EmploymentAndUnemploymentRateInAfrica" >
                 employment and unemployment rate in Africa
