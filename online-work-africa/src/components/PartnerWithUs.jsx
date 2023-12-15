@@ -1,12 +1,20 @@
 import React from 'react'
 import "../styles/PartnerWithUs.css";
-import PartnerWithUsImage from "../images/imagesAboutUs.png"
+import PartnerWithUsImage from "../images/imagesAboutUs.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function PartnerWithUs() {
+  useEffect(() => {
+    Aos.init({
+      duration: 3000,
+    });
+  }, []);
   return (
 
-    <div className="pwucontent-container">
-      <div className="pwutext-container">
+    <div data-aos="fade-down" className="pwucontent-container">
+      <div data-aos="zoom-in" className="pwutext-container">
         <h2>PARTNER WITH US</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel

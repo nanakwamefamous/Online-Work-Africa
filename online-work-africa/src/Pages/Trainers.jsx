@@ -1,19 +1,26 @@
 import React from 'react'
 import "../styles/Trainers.css"
 import image0 from "../images/Slider 1.png"
-// import ttopimg from "../images/Slider 3.png"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 
 export default function Trainers() {
+  useEffect(() => {
+    Aos.init({
+      duration: 3000,
+    });
+  }, []);
   return (
     <div>
       <div>
         <div className='ttopimg'></div>
-        <h4 className='th1text'>TRAINERS</h4>
-        <div className='tline'></div>
+        <h4 data-aos="zoom-in" className='th1text'>TRAINERS</h4>
+        <div data-aos="fade-left" className='tline'></div>
         <div className='tbox'>
             {data.map((d) => (
-            <div className='bg-red'>
+            <div  data-aos="zoom-out">
               <div key={d.name} className="h-[450px] text-black rounded-xl m-5">
               <div className='h-56 flex justify-center items-center rounded-t-xl imgbg'>
                 <img src={d.img} alt="" className="h-44 w-44 rounded-full"/>
