@@ -13,31 +13,36 @@ export default function AupKeyObjectives() {
   return (
     <div>
       <div data-aos="fade-left"className='aupKeyObjectivesBox'>
-        <h3>Key Objectives</h3>
+        <h3>Online Work Africa Goals</h3>
         <div className='KOsectBigBox'>
           <section data-aos="zoom-in" className='KOsectBox1'>
           <p>
-          5jhdsifuk jshiolkgytiuy hjhuritoyhkuo9t ougfosdghofgufn odghmfihofdxhiiog jhkdfghjhg ghkjdmnsvygmdgjbvs dsdsbivahbigu ahvlghlki oj ugibl fyha8 ubs sifosabhboslgyohfjd;b fdihb;zgchxlk fhvkbiu ifhjvkbiy dutgcjhvk hhlk,vhf yfolkyutghbnm vggk b ioj; jiovcftgykl v vkiol vkego jporhur ekhkheghl fdfhifbdf,hdbhkjbbbuh hduyhfdbnfd,hoiff fddf fhf hdlgs shdx ;hxliugu yvzbh jvbvkz vdsdvuzd vzvhvijckbvkcjbv hxvbvbcvikjcbvcvcxv cvcvicv cv vlkv v cvhcol vhlbvl cvhvkhzolvzdb dzkj,kvhvblknv vjhvlhvlkhvblz bcihbzcovzh gjhksdtugvh ggyrsfgh ftdyghcjgsaj sakfysajhgu shfsdiufd ydihjsfgskj dsukhbziukjs dgihzciuhj fyidzhiugjh guzxsvzfgsz sdiuhfkjsjdz dgvjdifhl sidgusvkdhv sdglhk sdgsdkjovuglg fyhtdgc jhgoiydj chgiydu tiugk hthxgc hvruydfh gtiugkjutujuu ikhvmryhfit ktuysiydugu ahsvkhcyufhj cfixzucfyu c icyfscfsa cfxzigc s8czxfgc cfik zxv kcxgvx sdvjg ds v sdiguvh dyoi gvsihd yny8sdd sdd ildvvoushdjlv sduhoodushv hodsogujovhnds y8dsovgudsh sdpyhvdsih dy8votsdhilv iofiotsudgfyisnf8ydyiod 8ohds dsyohodsj
+          <b>1.  Online Work Awareness: </b>
+            Increase awareness about diverse online work opportunities among the youth in Africa, aiming to reach numerous participants through promotional  campaigns and active conference participation.
           </p>
         </section>
         <section data-aos="zoom-in" className='KOsectBox2'>
           <p>
-          5jhdsifuk jshiolkgytiuy hjhuritoyhkuo9t ougfosdghofgufn odghmfihofdxhiiog jhkdfghjhg ghkjdmnsvygmdgjbvs dsdsbivahbigu ahvlghlki oj ugibl fyha8 ubs sifosabhboslgyohfjd;b fdihb;zgchxlk fhvkbiu ifhjvkbiy dutgcjhvk hhlk,vhf yfolkyutghbnm vggk b ioj; jiovcftgykl v vkiol vkego jporhur ekhkheghl fdfhifbdf,hdbhkjbbbuh hduyhfdbnfd,hoiff fddf fhf hdlgs shdx ;hxliugu yvzbh jvbvkz vdsdvuzd vzvhvijckbvkcjbv hxvbvbcvikjcbvcvcxv cvcvicv cv vlkv v cvhcol vhlbvl cvhvkhzolvzdb dzkj,kvhvblknv vjhvlhvlkhvblz bcihbzcovzh gjhksdtugvh ggyrsfgh ftdyghcjgsaj sakfysajhgu shfsdiufd ydihjsfgskj dsukhbziukjs dgihzciuhj fyidzhiugjh guzxsvzfgsz sdiuhfkjsjdz dgvjdifhl sidgusvkdhv sdglhk sdgsdkjovuglg fyhtdgc jhgoiydj chgiydu tiugk hthxgc hvruydfh gtiugkjutujuu ikhvmryhfit ktuysiydugu ahsvkhcyufhj cfixzucfyu c icyfscfsa cfxzigc s8czxfgc cfik zxv kcxgvx sdvjg ds v sdiguvh dyoi gvsihd yny8sdd sdd ildvvoushdjlv sduhoodushv hodsogujovhnds y8dsovgudsh sdpyhvdsih dy8votsdhilv iofiotsudgfyisnf8ydyiod 8ohds dsyohodsj
+          <b>2. Digital Skills Empowerment: </b>
+            Equip conference participants with foundational digital skills essential for online work, ensuring they are well-prepared to seize opportunities in the digital job market.
           </p>
         </section>
         <section data-aos="zoom-in" className='KOsectBox3'>
           <p>
-          5jhdsifuk jshiolkgytiuy hjhuritoyhkuo9t ougfosdghofgufn odghmfihofdxhiiog jhkdfghjhg ghkjdmnsvygmdgjbvs dsdsbivahbigu ahvlghlki oj ugibl fyha8 ubs sifosabhboslgyohfjd;b fdihb;zgchxlk fhvkbiu ifhjvkbiy dutgcjhvk hhlk,vhf yfolkyutghbnm vggk b ioj; jiovcftgykl v vkiol vkego jporhur ekhkheghl fdfhifbdf,hdbhkjbbbuh hduyhfdbnfd,hoiff fddf fhf hdlgs shdx ;hxliugu yvzbh jvbvkz vdsdvuzd vzvhvijckbvkcjbv hxvbvbcvikjcbvcvcxv cvcvicv cv vlkv v cvhcol vhlbvl cvhvkhzolvzdb dzkj,kvhvblknv vjhvlhvlkhvblz bcihbzcovzh gjhksdtugvh ggyrsfgh ftdyghcjgsaj sakfysajhgu shfsdiufd ydihjsfgskj dsukhbziukjs dgihzciuhj fyidzhiugjh guzxsvzfgsz sdiuhfkjsjdz dgvjdifhl sidgusvkdhv sdglhk sdgsdkjovuglg fyhtdgc jhgoiydj chgiydu tiugk hthxgc hvruydfh gtiugkjutujuu ikhvmryhfit ktuysiydugu ahsvkhcyufhj cfixzucfyu c icyfscfsa cfxzigc s8czxfgc cfik zxv kcxgvx sdvjg ds v sdiguvh dyoi gvsihd yny8sdd sdd ildvvoushdjlv sduhoodushv hodsogujovhnds y8dsovgudsh sdpyhvdsih dy8votsdhilv iofiotsudg fyisnf8ydyiod 8ohds dsyohodsj
+          <b>3. Inspire Pursuit of Online Careers: </b>
+            Inspire and motivate participants to explore and pursue online careers by showcasing success stories, industry insights, and the potential for sustainable income generation through online work.
           </p>
         </section>
         <section data-aos="zoom-in" className='KOsectBox4'>
           <p>
-            5jhdsifuk jshiolkgytiuy hjhuritoyhkuo9t ougfosdghofgufn odghmfihofdxhiiog jhkdfghjhg ghkjdmnsvygmdgjbvs dsdsbivahbigu ahvlghlki oj ugibl fyha8 ubs sifosabhboslgyohfjd;b fdihb;zgchxlk fhvkbiu ifhjvkbiy dutgcjhvk hhlk,vhf yfolkyutghbnm vggk b ioj; jiovcftgykl v vkiol vkego jporhur ekhkheghl fdfhifbdf,hdbhkjbbbuh hduyhfdbnfd,hoiff fddf fhf hdlgs shdx ;hxliugu yvzbh jvbvkz vdsdvuzd vzvhvijckbvkcjbv hxvbvbcvikjcbvcvcxv cvcvicv cv vlkv v cvhcol vhlbvl cvhvkhzolvzdb dzkj,kvhvblknv vjhvlhvlkhvblz bcihbzcovzh gjhksdtugvh ggyrsfgh ftdyghcjgsaj sakfysajhgu shfsdiufd ydihjsfgskj dsukhbziukjs dgihzciuhj fyidzhiugjh guzxsvzfgsz sdiuhfkjsjdz dgvjdifhl sidgusvkdhv sdglhk sdgsdkjovuglg fyhtdgc jhgoiydj chgiydu tiugk hthxgc hvruydfh gtiugkjutujuu ikhvmryhfit ktuysiydugu ahsvkhcyufhj cfixzucfyu c icyfscfsa cfxzigc s8czxfgc cfik zxv kcxgvx sdvjg ds v sdiguvh dyoi gvsihd yny8sdd sdd ildvvoushdjlv sduhoodushv hodsogujovhnds y8dsovgudsh sdpyhvdsih dy8votsdhilv iofiotsudgfyisnf8ydyiod 8ohds dsyohodsj
+         <b>4. Community Building: </b>
+            Establish an active online community for participants, fostering continuous dialogue, knowledge sharing, and networking among individuals interested in leveraging online work for their livelihoods.
           </p>
         </section>
         <section data-aos="zoom-in" className='KOsectBox5'>
           <p>
-          5jhdsifuk jshiolkgytiuy hjhuritoyhkuo9t ougfosdghofgufn odghmfihofdxhiiog jhkdfghjhg ghkjdmnsvygmdgjbvs dsdsbivahbigu ahvlghlki oj ugibl fyha8 ubs sifosabhboslgyohfjd;b fdihb;zgchxlk fhvkbiu ifhjvkbiy dutgcjhvk hhlk,vhf yfolkyutghbnm vggk b ioj; jiovcftgykl v vkiol vkego jporhur ekhkheghl fdfhifbdf,hdbhkjbbbuh hduyhfdbnfd,hoiff fddf fhf hdlgs shdx ;hxliugu yvzbh jvbvkz vdsdvuzd vzvhvijckbvkcjbv hxvbvbcvikjcbvcvcxv cvcvicv cv vlkv v cvhcol vhlbvl cvhvkhzolvzdb dzkj,kvhvblknv vjhvlhvlkhvblz bcihbzcovzh gjhksdtugvh ggyrsfgh ftdyghcjgsaj sakfysajhgu shfsdiufd ydihjsfgskj dsukhbziukjs dgihzciuhj fyidzhiugjh guzxsvzfgsz sdiuhfkjsjdz dgvjdifhl sidgusvkdhv sdglhk sdgsdkjovuglg fyhtdgc jhgoiydj chgiydu tiugk hthxgc hvruydfh gtiugkjutujuu ikhvmryhfit ktuysiydugu ahsvkhcyufhj cfixzucfyu c icyfscfsa cfxzigc s8czxfgc cfik zxv kcxgvx sdvjg ds v sdiguvh dyoi gvsihd yny8sdd sdd ildvvoushdjlv sduhoodushv hodsogujovhnds y8dsovgudsh sdpyhvdsih dy8votsdhilv iofiotsudgfyisnf8ydyiod 8ohds dsyohodsj
+          <b>5. Contribution to SDGs: </b>
+            Align the conference outcomes with Sustainable Development Goals (SDG) 1: No Poverty and SDG 8: Decent Work and Economic Growth, specifically focusing on reducing youth unemployment through exposure to viable online work opportunities.
           </p>
         </section>
         </div>

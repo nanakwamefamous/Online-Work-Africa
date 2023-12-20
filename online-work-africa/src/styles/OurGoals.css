@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   max-width: 70%;
   margin: 20px auto;
-  padding: 20px;
+  padding: 30px;
   border: 1px solid #27418b;;
   border-radius: 35px;
 }
@@ -17,8 +17,14 @@
 }
 
 .ogtext-container h2{
-  font-size: x-large;
+  font-size: xx-large;
+  font-weight: bolder;
   text-align: center;
+}
+
+.ogtext-container p{
+  text-align:justify;
+  padding-left:20px
 }
 
 .ogimage-container {
@@ -35,8 +41,8 @@
 
 .ogbottom-right-btn {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 30px;
+  right: 150px;
   background-color: #27418b;;
   color: #fff;
   padding: 10px 15px;

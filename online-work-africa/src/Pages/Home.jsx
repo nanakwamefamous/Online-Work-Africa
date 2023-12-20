@@ -7,6 +7,7 @@ import Cardslider from '../components/cardslider';
 import OurGoals from '../components/OurGoals';
 import PartnerWithUs from '../components/PartnerWithUs';
 import SponsorsSlider from '../components/SponsorsSlider';
+import Highlight from '../components/Highlight';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <OurGoals/>
       <EmploymentRate />
       <Cardslider />
+      <Highlight />
       <PartnerWithUs />
       <SponsorsSlider />
     </div>

@@ -22,11 +22,8 @@ export default function OurGoals() {
       </div>
       <div data-aos="zoom-in" className="ogtext-container">
         <h2>Our Goals</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
-          quam vel lectus posuere vestibulum. Integer volutpat, turpis eget
-          efficitur fermentum, sem erat ultrices urna, id varius velit ligula
-          non velit.
+        <p> 
+          Simultaneously, we aspire to inspire a pursuit of online careers, encouraging individuals to explore diverse avenues in the digital realm. Complementing this, our focus extends to Community Building, fostering connections and collaborations that enhance the collective experience. Furthermore, the initiative emphasizes the pivotal role of contributing to Sustainable Development Goals (SDGs), aligning efforts to make a positive impact on our global community.
         </p>
       </div>
 

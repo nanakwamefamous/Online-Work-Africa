@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/PartnerWithUs.css";
-import PartnerWithUsImage from "../images/imagesAboutUs.png";
+import PartnerWithUsImage from "../images/hand shake.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -17,10 +17,7 @@ export default function PartnerWithUs() {
       <div data-aos="zoom-in" className="pwutext-container">
         <h2>PARTNER WITH US</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel
-          quam vel lectus posuere vestibulum. Integer volutpat, turpis eget
-          efficitur fermentum, sem erat ultrices urna, id varius velit ligula
-          non velit.
+        This Virtual Conference will create a platform for both knowledge sharers and knowledge seekers to connect and learn to build, empower, upskill and reskill human resources in the area of digital knowledge across Africa. The focus is to build the capacity of the youth, SMEs, government agencies, organizations, and professionals to make them more competitive on the job market, more efficient in their fields of work, and equip them to apply digital skills to solve problems.
         </p>
       </div>
 

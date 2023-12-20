@@ -28,7 +28,7 @@ function Cardslider() {
             <div className="flex flex-col items-center justify-center gap-4 p-4 bg-gray-400">
               <p className="text-xl font-semibold">{d.name}</p>
               <p className="text-center">{d.review}</p>
-              <a href="/Trainers" className='text-white text-lg px-6 py-1 rounded-xl crm'>Read More</a>
+              <a href="/Trainers" className='text-white text-lg px-6 py-1 rounded-xl crm'>READ MORE</a>
             </div>
           </div>
         ))}

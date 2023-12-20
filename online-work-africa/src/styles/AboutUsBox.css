@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   max-width: 70%;
   margin: 50px auto;
-  padding: 20px;
+  padding: 30px;
   border: 1px solid #27418b;
   border-radius: 35px;
 }
@@ -16,8 +16,14 @@
 
 }
 .autext-container h2{
-  font-size: x-large;
+  font-size: xx-large;
+  font-weight: bolder;
   text-align: center;
+}
+
+.autext-container p{
+  text-align:justify;
+  padding-left:20px;
 }
 
 .auimage-container {
@@ -33,8 +39,8 @@
 
 .aubottom-left-btn {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 30px;
+  left: 120px;
   background-color: #27418b;;
   color: #fff;
   padding: 10px 15px;
@@ -52,3 +58,43 @@
 .aubottom-left-btn:active{
   scale: 0.95;
 } 
+
+
+/* Media queries for smaller screens */
+
+@media only screen and (max-width: 768px) {
+  .aucontent-container {
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  .autext-container {
+    flex: 1;
+    padding-left: 0;
+    padding-bottom: 10px;
+    font-size:10px
+  }
+
+  .autext-container h2 {
+    font-size: x-large;
+  }
+
+  .auimage-container {
+    flex: 1;
+    text-align: center;
+  }
+
+  .auimage-container img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+  .aubottom-left-btn {
+    font-size: 8px;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+}

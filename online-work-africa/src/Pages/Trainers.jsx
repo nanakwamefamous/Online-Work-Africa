@@ -4,12 +4,13 @@ import image0 from "../images/Slider 1.png"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import SponsorsSlider from '../components/SponsorsSlider';
 
 
 export default function Trainers() {
   useEffect(() => {
     Aos.init({
-      duration: 3000,
+      duration: 1000,
     });
   }, []);
   return (
@@ -35,6 +36,7 @@ export default function Trainers() {
           ))}
         </div>
       </div>
+      <SponsorsSlider/>
     </div>
   )
 }

@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-6 col-lg-5 col-12 ft-1">
                             <img src={logo} alt=""/>
-                            <p>dhjfdifkjd fiuljdsgiuhfgusiodho ssgiudhlfvsiughlkxgiu dyukhbvshjvbjk yfbv dsyiiltwiteugwou isuehfsgiduzgsh ilkviugsjkbv ivguhlzgusv gusoklv gbj </p>
+                            <p>The Online Work Africa Conference, organized by Mobile Web Ghana and its esteemed partners, stands as a pivotal initiative addressing the surging demand for online work skills in Ghana and the broader African context. In our swiftly evolving digital landscape, technology has become the great equalizer, opening doors for knowledge exchange, skill acquisition, and digital empowerment.</p>
                             <div className="footer-icons">
                                 <i class="fa-brands fa-facebook"></i>
                                 <i class="fa-brands fa-twitter"></i>
@@ -43,9 +43,9 @@ const Footer = () => {
                         </div>
                         <div className="col-md-6 col-lg-4 col-12 ft-3">
                             <h5>Contact</h5>
-                            <p><i class="fa-solid fa-phone-volume"></i> 00000000000</p>
-                            <p><i class="fa-solid fa-envelope"></i> fdmbjfdkfk@gmail.com</p>
-                            <p><i class="fa-solid fa-paper-plane"></i> vhbnmdjhb dfdufgdk</p>
+                            <p><i class="fa-solid fa-phone-volume"></i>0303944393</p>
+                            <p><i class="fa-solid fa-envelope"></i> info@onlineworkghana.com</p>
+                            <p><i class="fa-solid fa-paper-plane"></i> Dar es Salaam street, Agbogba, North Legon, Accra</p>
                         </div>
                     </div>
                 </div>
