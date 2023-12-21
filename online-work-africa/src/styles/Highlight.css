@@ -50,3 +50,29 @@
   font-size: 1rem;
 }
 
+/* Media queries for smaller screens */
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 70%;
+  }
+
+  .card-title {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+
+  .card-content {
+    font-size: 8px;
+  }
+
+  .cardh1{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+  }
+}

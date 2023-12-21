@@ -17,7 +17,7 @@ export default function AboutUsBox() {
       <div data-aos="zoom-in" className="autext-container">
         <h2>ABOUT US</h2>
         <p>
-        The Online Work Africa Conference, organized by Mobile Web Ghana and its esteemed partners, stands as a pivotal initiative addressing the surging demand for online work skills in Ghana and the broader African context. In our swiftly evolving digital landscape, technology has become the great equalizer, opening doors for knowledge exchange, skill acquisition, and digital empowerment.
+          The Online Work Africa Conference, organized by Mobile Web Ghana and its esteemed partners, stands as a pivotal initiative addressing the surging demand for online work skills in Ghana and the broader African context. In our swiftly evolving digital landscape technology has become the great equalizer, opening doors for knowledge exchange, skill acquisition, and digital empowerment.
         </p>
       </div>
 

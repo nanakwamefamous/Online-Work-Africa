@@ -28,7 +28,7 @@ export default function Sponsors() {
         <div className='sponsorsimgbox'>
           <div className='spimg'>
             <img data-aos="zoom-in" src={sponsorsimg_1} alt="" />
-            <img data-aos="zoom-in" src={sponsorsimg_2} alt="" /> b
+            <img data-aos="zoom-in" src={sponsorsimg_2} alt="" />
             <img data-aos="zoom-in" src={sponsorsimg_4} alt="" />
             <img data-aos="zoom-in" src={sponsorsimg_5} alt="" />
             <img data-aos="zoom-in" src={sponsorsimg_6} alt="" />

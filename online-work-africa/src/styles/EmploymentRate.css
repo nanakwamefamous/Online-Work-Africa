@@ -14,7 +14,7 @@
   text-align: center;
   font-size: xx-large;
   text-transform: uppercase;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
 }
 
 .ContentBox{
@@ -35,8 +35,8 @@
 
 }
 .EmploymentRate{
-  font-size: xx-large;
-  text-transform: uppercase;
+  font-size: x-large;
+  font-style: italic;
 }
 
 .Line1{
@@ -50,8 +50,8 @@
 }
 
 .UnemploymentRate{
-  font-size:xx-large;
-  text-transform: uppercase;
+  font-size:x-large;
+  font-style: italic;
 }
 
 .Content{
@@ -63,4 +63,37 @@
 .Content2{
   font-weight: bolder;
   font-size: xx-large;
+}
+
+/* Media queries for smaller screens */
+
+@media screen and (max-width: 768px) {
+  .EmploymentAndUnemploymentRateInAfrica{
+    font-size:larger;
+    text-transform: uppercase;
+  }
+  
+  .EmploymentBox {
+    height: 50%;
+  }
+
+  .ContentBox {
+    flex-direction: column;
+    align-items: center;
+    font-size: smaller;
+  }
+
+  .Content {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .Content2 {
+    text-align: center;
+  }
+
+  .Line1 {
+    margin: 0 auto;
+    
+  }
 }

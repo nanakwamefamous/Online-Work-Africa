@@ -13,7 +13,6 @@
 .autext-container {
   flex: 1;
   padding-right: 20px;
-
 }
 .autext-container h2{
   font-size: xx-large;
@@ -21,9 +20,9 @@
   text-align: center;
 }
 
-.autext-container p{
-  text-align:justify;
-  padding-left:20px;
+.autext-container p {
+  text-align: justify;
+  padding-left: 10px;
 }
 
 .auimage-container {
@@ -62,7 +61,7 @@
 
 /* Media queries for smaller screens */
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .aucontent-container {
     max-width: 90%;
     margin: 10px auto;
@@ -74,16 +73,21 @@
     flex: 1;
     padding-left: 0;
     padding-bottom: 10px;
-    font-size:10px
+    font-size:9px;
   }
 
   .autext-container h2 {
-    font-size: x-large;
+    font-size: large;
+  }
+
+  .autext-container p {
+    text-align: left;
+    padding-left: 10px;
   }
 
   .auimage-container {
     flex: 1;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .auimage-container img {

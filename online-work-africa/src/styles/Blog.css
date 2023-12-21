@@ -73,3 +73,23 @@
   text-align:justify;
   padding: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .Btopimg {
+    width: 100%;
+    height: 150px;
+  }
+
+  .Bh1text {
+    font-size: 45px;
+    top: 265px;
+    left: 37%;
+    transform: translateX(-50%);
+  }
+
+  .Bline {
+    width: 10%;
+    top: 320px;
+    left: 43%;
+  }
+}

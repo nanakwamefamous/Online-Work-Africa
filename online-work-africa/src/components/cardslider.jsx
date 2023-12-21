@@ -16,17 +16,17 @@ function Cardslider() {
     cssEase: "linear"
   };
   return (
-    <div className='w-3/4 m-auto'>
+    <div className='w-3/4 m-auto main_con'>
       <div className="mt-5">
       <h2 className="textH2">TRAINERS</h2>
       <Slider {...settings}>
         {data.map((d) => (
-          <div key={d.name} className="h-[450px] text-black rounded-xl">
-            <div className='h-56 flex justify-center items-center rounded-t-xl imgbg'>
-              <img src={d.img} alt="" className="h-44 w-44 rounded-full"/>
+          <div key={d.name} className="h-[450px] text-black rounded-xl card_con">
+            <div className='h-56 flex justify-center items-center rounded-t-x1 imgbg'>
+              <img src={d.img} alt="" className="h-44 w-44 rounded-full "/>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 p-4 bg-gray-400">
-              <p className="text-xl font-semibold">{d.name}</p>
+            <div className="flex flex-col items-center justify-center gap-4 p-4 bg-gray-400 card_text">
+              <p className="text-xl font-semibold name_text">{d.name}</p>
               <p className="text-center">{d.review}</p>
               <a href="/Trainers" className='text-white text-lg px-6 py-1 rounded-xl crm'>READ MORE</a>
             </div>
@@ -46,7 +46,7 @@ const data = [
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
   },
   {
-    name: `Ellie Anderson`,
+    name: `Anderson`,
     img: image0,
     review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
   },

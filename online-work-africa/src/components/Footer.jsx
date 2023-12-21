@@ -10,7 +10,6 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-6 col-lg-5 col-12 ft-1">
                             <img src={logo} alt=""/>
-                            <p>The Online Work Africa Conference, organized by Mobile Web Ghana and its esteemed partners, stands as a pivotal initiative addressing the surging demand for online work skills in Ghana and the broader African context. In our swiftly evolving digital landscape, technology has become the great equalizer, opening doors for knowledge exchange, skill acquisition, and digital empowerment.</p>
                             <div className="footer-icons">
                                 <i class="fa-brands fa-facebook"></i>
                                 <i class="fa-brands fa-twitter"></i>
